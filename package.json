@@ -1,0 +1,19 @@
+{
+  "name": "arcgis-mvc-project",
+  "version": "1.0.0",
+  "description": "Node.js MVC project with ArcGIS JS API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@arcgis/core": "^4.28.10",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
